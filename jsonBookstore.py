@@ -1,6 +1,6 @@
 import json
 
-with open("Prog-Lang/bookstore.json", "r") as file:
+with open("./bookstore.json", "r") as file:
     root = json.load(file)
 
 totalCost = 0

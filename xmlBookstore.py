@@ -1,6 +1,6 @@
 import xml.etree.ElementTree as ET
 
-tree = ET.parse("XML Json Parser/bookstore.xml")
+tree = ET.parse("./bookstore.xml")
 root = tree.getroot()
 
 # for child in root:
